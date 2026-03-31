@@ -3,11 +3,11 @@
 num1 = 30
 num2 = 70
 product = num1 * num2
-sum = num1 + num2
+total = num1 + num2
 if product > 100:
     print ('The product is:', product)
 else:
-    print ('The sum is:', sum) 
+    print ('The sum is:', total) 
 
 
 
@@ -109,3 +109,8 @@ for num in list1:
     count_dict[num] = list1.count(num)
 
 print("Element counts:", count_dict)
+
+# Exercise 14 - Calculate the sum of digits of a number
+num = 1234
+sum_of_digits = sum(int(x) for x in str(num))
+print("Sum of digits of", num, "=", sum_of_digits)
