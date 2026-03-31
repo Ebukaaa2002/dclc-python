@@ -80,3 +80,14 @@ if str(num) == str(num)[::-1]:
     print(num, "is a Palindrome")
 else:
     print(num, "is not a Palindrome")
+
+# Exercise 11 - Merge two lists and sort them
+list1 = [10, 20, 30, 40, 50]
+list2 = [5, 15, 25, 35, 45]
+
+merged = list1 + list2
+merged.sort()
+
+print("List 1:", list1)
+print("List 2:", list2)
+print("Merged and Sorted:", merged)
