@@ -14,3 +14,11 @@ else:
 #Exercise 2
 for i in range(1, 11):
     print(i, '+', (i-1), '=', i + (i-1))
+
+
+
+#Exercise 3
+str1 = "Python"
+for i in range(0, len(str1)):
+    if i % 2 == 0:
+        print(str1[i])
