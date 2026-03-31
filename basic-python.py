@@ -40,5 +40,17 @@ elif num < 0:
 else:
     print("The number is zero")
 
-
 #Exercise 6
+# Exercise 6 - Display numbers divisible by 5
+numbers = [10, 20, 33, 46, 55, 75, 81]
+for divisible_num in numbers:
+    if divisible_num % 5 == 0:
+         print(divisible_num)
+
+# Exercise 7 - Count occurrences of a digit in a number
+num = 25144803677215547
+digit = 5
+
+count = str(num).count(str(digit))
+print("The digit", digit, "appears", count, "times")
+
