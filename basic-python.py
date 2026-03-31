@@ -114,3 +114,9 @@ print("Element counts:", count_dict)
 num = 1234
 sum_of_digits = sum(int(x) for x in str(num))
 print("Sum of digits of", num, "=", sum_of_digits)
+
+# Exercise 15 - Print a multiplication table
+num = 5
+
+for i in range(1, 11):
+    print(num, 'x', i, '=', num * i)
