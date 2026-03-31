@@ -99,3 +99,13 @@ list2 = [20, 30, 60, 70]
 
 intersection = [x for x in list1 if x in list2]
 print("Intersection:", intersection)
+
+# Exercise 13 - Count occurrences of each element in a list
+list1 = [10, 20, 30, 10, 50, 10, 20]
+
+count_dict = {}
+
+for num in list1:
+    count_dict[num] = list1.count(num)
+
+print("Element counts:", count_dict)
