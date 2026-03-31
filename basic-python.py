@@ -91,3 +91,11 @@ merged.sort()
 print("List 1:", list1)
 print("List 2:", list2)
 print("Merged and Sorted:", merged)
+
+
+# Exercise 12 - Find the intersection of two lists
+list1 = [10, 20, 30, 40, 50]
+list2 = [20, 30, 60, 70]
+
+intersection = [x for x in list1 if x in list2]
+print("Intersection:", intersection)
