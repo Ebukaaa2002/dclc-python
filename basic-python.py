@@ -54,3 +54,15 @@ digit = 5
 count = str(num).count(str(digit))
 print("The digit", digit, "appears", count, "times")
 
+# Exercise 8 - Check if a number is a perfect square
+import math
+
+num = 625
+
+sqrt = math.sqrt(num)
+
+if sqrt == int(sqrt):
+    print(num, "is a perfect square")
+else:
+    print(num, "is not a perfect square")
+
