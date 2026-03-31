@@ -22,3 +22,10 @@ str1 = "Python"
 for i in range(0, len(str1)):
     if i % 2 == 0:
         print(str1[i])
+
+
+
+#Exercise 4
+str1 = 'Python'
+n = 2
+print(str1[n:])
