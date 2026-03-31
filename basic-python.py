@@ -66,3 +66,17 @@ if sqrt == int(sqrt):
 else:
     print(num, "is not a perfect square")
 
+
+# Exercise 9 - Display reversed string
+str1 = "Python"
+
+print("Original string:", str1)
+print("Reversed string:", str1[::-1])
+
+# Exercise 10 - Check if a number is a palindrome
+num = 121
+
+if str(num) == str(num)[::-1]:
+    print(num, "is a Palindrome")
+else:
+    print(num, "is not a Palindrome")
