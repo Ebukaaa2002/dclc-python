@@ -29,3 +29,13 @@ for i in range(0, len(str1)):
 str1 = 'Python'
 n = 2
 print(str1[n:])
+
+
+#Exercise 5
+num = 10
+if num > 0:
+    print("The number is positive")
+elif num < 0:
+    print("The number is negative")
+else:
+    print("The number is zero")
