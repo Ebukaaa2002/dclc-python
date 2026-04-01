@@ -78,5 +78,12 @@ dict2 = {"Forty": 40, "Fifty": 50, "Sixty": 60}
 merged_dict = {**dict1, **dict2}
 print("Merged dictionary:", merged_dict)
 
+# Exercise 8 - Create a dictionary from two lists
+keys = ["Ten", "Twenty", "Thirty", "Forty", "Fifty"]
+values = [10, 20, 30, 40, 50]
+
+result_dict = dict(zip(keys, values))
+print("Dictionary:", result_dict)
+
 
 
