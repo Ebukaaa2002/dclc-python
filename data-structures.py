@@ -20,3 +20,25 @@ print("List after adding at index 2:", sample_list)
 
 sample_list.append(element)
 print("List after adding at end:", sample_list)
+
+
+
+# Exercise 3 - Slice list into 3 chunks and reverse each
+sample_list = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+print("Original list:", sample_list)
+
+length = len(sample_list)
+chunk_size = int(length / 3)
+start = 0
+end = chunk_size
+
+for i in range(3):
+    chunk = sample_list[start:end]
+    print("Chunk", i+1, ":", chunk)
+    print("Reversed:", list(reversed(chunk)))
+    start = end
+    end += chunk_size
+
+
+
+
