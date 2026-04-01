@@ -71,6 +71,12 @@ print("Original list:", sample_list)
 unique_list = list(set(sample_list))
 print("List after removing duplicates:", unique_list)
 
+# Exercise 7 - Merge two dictionaries
+dict1 = {"Ten": 10, "Twenty": 20, "Thirty": 30}
+dict2 = {"Forty": 40, "Fifty": 50, "Sixty": 60}
+
+merged_dict = {**dict1, **dict2}
+print("Merged dictionary:", merged_dict)
 
 
 
