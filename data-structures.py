@@ -86,4 +86,14 @@ result_dict = dict(zip(keys, values))
 print("Dictionary:", result_dict)
 
 
+# Exercise 9 - Check if a value exists in a dictionary
+dict1 = {"Ten": 10, "Twenty": 20, "Thirty": 30}
+
+value_to_find = 20
+
+if value_to_find in dict1.values():
+    print(value_to_find, "exists in the dictionary ✅")
+else:
+    print(value_to_find, "does not exist in the dictionary ❌")
+
 
