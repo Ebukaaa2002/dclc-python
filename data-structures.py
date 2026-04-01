@@ -51,5 +51,19 @@ for item in sample_list:
 print("Count of each element:", count_dict)
 
 
+# Exercise 5 - Check if first and last elements are the same
+def first_last_same(number_list):
+    print("Given list:", number_list)
+    first = number_list[0]
+    last = number_list[-1]
+    if first == last:
+        print("Result: True")
+    else:
+        print("Result: False")
+
+first_last_same([10, 20, 30, 40, 10])
+first_last_same([75, 65, 35, 75, 30])
+
+
 
 
