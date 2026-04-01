@@ -64,6 +64,13 @@ def first_last_same(number_list):
 first_last_same([10, 20, 30, 40, 10])
 first_last_same([75, 65, 35, 75, 30])
 
+# Exercise 6 - Remove duplicates from a list
+sample_list = [1, 2, 3, 4, 1, 5, 6, 1, 3, 2]
+print("Original list:", sample_list)
+
+unique_list = list(set(sample_list))
+print("List after removing duplicates:", unique_list)
+
 
 
 
