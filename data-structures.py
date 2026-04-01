@@ -96,4 +96,10 @@ if value_to_find in dict1.values():
 else:
     print(value_to_find, "does not exist in the dictionary ❌")
 
+    # Exercise 10 - Print multiplication table grid
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i * j, end="\t")
+    print()
+
 
