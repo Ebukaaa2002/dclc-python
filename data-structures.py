@@ -40,5 +40,16 @@ for i in range(3):
     end += chunk_size
 
 
+# Exercise 4 - Count occurrences of each element in a list
+sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+print("Original list:", sample_list)
+
+count_dict = {}
+for item in sample_list:
+    count_dict[item] = sample_list.count(item)
+
+print("Count of each element:", count_dict)
+
+
 
 
