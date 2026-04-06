@@ -60,3 +60,9 @@ print("Third element:", my_tuple[2])
 
 # Find length
 print("Length of tuple:", len(my_tuple))
+
+# Tuple Exercise 2 - Tuple repetition
+tuple_1 = (1, 2, 3)
+print("Original tuple:", tuple_1)
+repeated_tuple = tuple_1 * 3
+print("Repeated 3 times:", repeated_tuple)
