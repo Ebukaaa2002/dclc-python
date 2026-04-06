@@ -36,3 +36,11 @@ values = [10, 20, 30, 40, 50]
 
 result_dict = dict(zip(keys, values))
 print("Dictionary:", result_dict)
+
+
+# Dictionary Exercise 5 - Merge two dictionaries
+dict1 = {"Ten": 10, "Twenty": 20, "Thirty": 30}
+dict2 = {"Forty": 40, "Fifty": 50, "Sixty": 60}
+
+merged_dict = {**dict1, **dict2}
+print("Merged dictionary:", merged_dict)
