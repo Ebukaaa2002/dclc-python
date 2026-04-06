@@ -29,3 +29,10 @@ print("Values:", list(dict1.values()))
 
 # Print all key-value pairs
 print("Key-value pairs:", list(dict1.items()))
+
+# Dictionary Exercise 3 - Create dictionary from two lists
+keys = ['Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty']
+values = [10, 20, 30, 40, 50]
+
+result_dict = dict(zip(keys, values))
+print("Dictionary:", result_dict)
