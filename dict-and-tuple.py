@@ -16,3 +16,16 @@ print("After modifying age:", dict1)
 
 # Access a key
 print("City:", dict1['city'])
+
+
+# Dictionary Exercise 2 - Perform dictionary operations
+dict1 = {'name': 'Alice', 'age': 35, 'city': 'New York'}
+
+# Print all keys
+print("Keys:", list(dict1.keys()))
+
+# Print all values
+print("Values:", list(dict1.values()))
+
+# Print all key-value pairs
+print("Key-value pairs:", list(dict1.items()))
