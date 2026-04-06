@@ -66,3 +66,16 @@ tuple_1 = (1, 2, 3)
 print("Original tuple:", tuple_1)
 repeated_tuple = tuple_1 * 3
 print("Repeated 3 times:", repeated_tuple)
+
+# Tuple Exercise 3 - Slicing tuples
+tuple1 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print("Original tuple:", tuple1)
+
+# First 3 elements
+print("First 3 elements:", tuple1[:3])
+
+# Last 3 elements
+print("Last 3 elements:", tuple1[-3:])
+
+# Middle elements
+print("Middle elements:", tuple1[3:7])
