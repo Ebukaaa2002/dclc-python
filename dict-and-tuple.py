@@ -79,3 +79,10 @@ print("Last 3 elements:", tuple1[-3:])
 
 # Middle elements
 print("Middle elements:", tuple1[3:7])
+
+# Tuple Exercise 4 - Reverse a tuple
+tuple1 = (1, 2, 3, 4, 5)
+print("Original tuple:", tuple1)
+
+reversed_tuple = tuple1[::-1]
+print("Reversed tuple:", reversed_tuple)
