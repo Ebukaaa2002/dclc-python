@@ -13,3 +13,13 @@ from datetime import datetime
 date_string = "25 February, 2020"
 date_object = datetime.strptime(date_string, "%d %B, %Y")
 print("Date object:", date_object)
+
+# Exercise 3 - Subtract a week from a given date
+from datetime import datetime, timedelta
+
+given_date = datetime(2020, 2, 25)
+print("Given date:", given_date.date())
+
+one_week = timedelta(weeks=1)
+new_date = given_date - one_week
+print("Date after subtracting a week:", new_date.date())
