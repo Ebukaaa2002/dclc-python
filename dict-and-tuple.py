@@ -44,3 +44,19 @@ dict2 = {"Forty": 40, "Fifty": 50, "Sixty": 60}
 
 merged_dict = {**dict1, **dict2}
 print("Merged dictionary:", merged_dict)
+
+
+
+# ==============================
+# TUPLE EXERCISES
+# ==============================
+
+# Tuple Exercise 1 - Basic tuple operations
+my_tuple = (1, 2, 3, 4, 5)
+print("My tuple:", my_tuple)
+
+# Access third element
+print("Third element:", my_tuple[2])
+
+# Find length
+print("Length of tuple:", len(my_tuple))
