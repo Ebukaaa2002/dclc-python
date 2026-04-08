@@ -32,3 +32,8 @@ now = datetime.now()
 # Format the date and time
 formatted = now.strftime("%A, %d %B %Y %I:%M %p")
 print("Formatted date and time:", formatted)
+
+from datetime import datetime
+
+given_date = datetime(2020, 7, 26)
+print(given_date.strftime('%A'))
