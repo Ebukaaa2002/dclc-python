@@ -76,3 +76,15 @@ new_date = current_date + relativedelta(months=+4)
 
 print("Current date:", current_date)
 print("Date after 4 months:", new_date)
+
+# Exercise 10 - Calculate difference between two dates
+from datetime import date
+
+# Given dates
+date_1 = date(2026, 4, 8)
+date_2 = date(2026, 4, 18)
+
+# Difference
+delta = date_2 - date_1
+
+print("Number of days:", delta.days)
