@@ -45,3 +45,8 @@ print("Given date and time:", given_date)
 days_to_add = timedelta(days=7, hours=12)
 new_date = given_date + days_to_add
 print("New date and time after adding a week and 12 hours:", new_date)
+
+#Exercise 7 - Print current time in milliseconds
+import time
+current_time_millis = int(time.time() * 1000)
+print("Current time in milliseconds:", current_time_millis)
