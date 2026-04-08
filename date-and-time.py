@@ -23,3 +23,12 @@ print("Given date:", given_date.date())
 one_week = timedelta(weeks=1)
 new_date = given_date - one_week
 print("Date after subtracting a week:", new_date.date())
+
+# Exercise 4 - Format DateTime
+from datetime import datetime
+
+now = datetime.now()
+
+# Format the date and time
+formatted = now.strftime("%A, %d %B %Y %I:%M %p")
+print("Formatted date and time:", formatted)
