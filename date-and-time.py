@@ -62,3 +62,17 @@ formatted_datetime = given_datetime.strftime("%Y-%m-%d %H:%M:%S")
 # Print the result and its type
 print("Formatted datetime string:", formatted_datetime)
 print("Type of formatted datetime:", type(formatted_datetime))
+
+
+# Exercise 9 - Add 4 months to a given date
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+
+# Get current date
+current_date = datetime.now().date()
+
+# Add 4 months
+new_date = current_date + relativedelta(months=+4)
+
+print("Current date:", current_date)
+print("Date after 4 months:", new_date)
