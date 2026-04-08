@@ -50,3 +50,15 @@ print("New date and time after adding a week and 12 hours:", new_date)
 import time
 current_time_millis = int(time.time() * 1000)
 print("Current time in milliseconds:", current_time_millis)
+
+
+#Exercise 8 - Convert datetime object to string
+from datetime import datetime
+
+given_datetime = datetime(2026, 4, 8, 5, 45, 0)
+
+# Convert the datetime object to a string
+formatted_datetime = given_datetime.strftime("%Y-%m-%d %H:%M:%S")
+# Print the result and its type
+print("Formatted datetime string:", formatted_datetime)
+print("Type of formatted datetime:", type(formatted_datetime))
