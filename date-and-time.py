@@ -37,3 +37,11 @@ from datetime import datetime
 
 given_date = datetime(2020, 7, 26)
 print(given_date.strftime('%A'))
+
+#Exercise 6 - Add a week and 12 hours to a given date
+from datetime import datetime, timedelta
+given_date = datetime(2020, 7, 26, 5, 0, 0)
+print("Given date and time:", given_date)
+days_to_add = timedelta(days=7, hours=12)
+new_date = given_date + days_to_add
+print("New date and time after adding a week and 12 hours:", new_date)
